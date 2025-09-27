@@ -2,7 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from main import app, get_db
+from semana7.app.main import app, get_db
 from database import Base
 
 # Base de datos de prueba personalizada para Rent a Car

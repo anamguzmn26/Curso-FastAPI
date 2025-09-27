@@ -6,6 +6,7 @@ from models.product_models import (
 from data.products_data import (
     get_all_products, get_product_by_id
 )
+# semana3/main.py
 
 app = FastAPI(
     title="API de Inventario - Semana 3",

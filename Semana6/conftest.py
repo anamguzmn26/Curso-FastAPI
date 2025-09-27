@@ -2,7 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from main import app   # 👈 solo app desde main
+from semana7.app.main import app   # 👈 solo app desde main
 from database import Base, get_db   # 👈 get_db ahora viene de database.py
 
 # Base de datos de prueba personalizada para Rent a Car
